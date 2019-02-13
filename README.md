@@ -5,6 +5,10 @@ This up to date guide is designed to help other Udacity students with the final 
 
 ## IP
 - IP Address: 35.177.251.231
+## shh public key
+`
+ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCzYeSx++R1bYkKhEIwRU/xvjduX+cJ9kfspApNVlHMI870t/whmr/+bjYqCwqFVbr8N6o+y0F8YS96hHJ51yMOFhf7mZqdRw1N15PgzrmkOMjtjkFiPVLi8Y8ZpyWA7MYoguChy+cl5Z+nwUtlBsasUlnKZQdtLdKpBWnUtUnDhh9+1+QXY/ZFgl3GxoA5xD3Ph7IAljG7DkivjEsd2yOPLY3ZcU0PNULNVY/Z2qkacJYMjPS/j0eprfTeBMZAfwWcSmtLkjiOrvh8uY7tPM+kCdTNKo1nFqNUIpThoF020iZ5DHpuWVwzD8ewGfCPAckFMdIKZKkW/PLtnZr67j3F id_rsa
+`
 
 # Linux Configuration
  1. On Mac you will want to store all of your SSH Keys in the .ssh folder which is located in a folder called `.ssh` at the root of your user directory. For example `Macintosh HD/Users/[Your username]/.ssh/`
