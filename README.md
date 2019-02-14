@@ -7,7 +7,7 @@ This up to date guide is designed to help other Udacity students with the final 
 - IP Address: 35.177.251.231
 ## shh public key
 `
-ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCzYeSx++R1bYkKhEIwRU/xvjduX+cJ9kfspApNVlHMI870t/whmr/+bjYqCwqFVbr8N6o+y0F8YS96hHJ51yMOFhf7mZqdRw1N15PgzrmkOMjtjkFiPVLi8Y8ZpyWA7MYoguChy+cl5Z+nwUtlBsasUlnKZQdtLdKpBWnUtUnDhh9+1+QXY/ZFgl3GxoA5xD3Ph7IAljG7DkivjEsd2yOPLY3ZcU0PNULNVY/Z2qkacJYMjPS/j0eprfTeBMZAfwWcSmtLkjiOrvh8uY7tPM+kCdTNKo1nFqNUIpThoF020iZ5DHpuWVwzD8ewGfCPAckFMdIKZKkW/PLtnZr67j3F id_rsa
+ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCzYeSx++R1bYkKhEIwRU/xvjduX+cJ9kfspApNVlHMI870t/whmr/+bjYqCwqFVbr8N6o+y0F8YS96hHJ51yMOFhf7mZqdRw1N15PgzrmkOMjtjkFiPVLi8Y8ZpyWA7MYoguChy+cl5Z+nwUtlBsasUlnKZQdtLdKpBWnUtUnDhh9+1+QXY/ZFgl3GxoA5xD3Ph7IAljG7DkivjEsd2yOPLY3ZcU0PNULNVY/Z2qkacJYMjPS/j0eprfTeBMZAfwWcSmtLkjiOrvh8uY7tPM+kCdTNKo1nFqNUIpThoF020iZ5DHpuWVwzD8ewGfCPAckFMdIKZKkW/PLtnZr67j3F youssef.david.joe@gmail.com
 `
 
 # Linux Configuration
