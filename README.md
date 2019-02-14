@@ -5,10 +5,29 @@ This up to date guide is designed to help other Udacity students with the final 
 
 ## IP
 - IP Address: 35.177.251.231
-## shh public key
-`
-ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCzYeSx++R1bYkKhEIwRU/xvjduX+cJ9kfspApNVlHMI870t/whmr/+bjYqCwqFVbr8N6o+y0F8YS96hHJ51yMOFhf7mZqdRw1N15PgzrmkOMjtjkFiPVLi8Y8ZpyWA7MYoguChy+cl5Z+nwUtlBsasUlnKZQdtLdKpBWnUtUnDhh9+1+QXY/ZFgl3GxoA5xD3Ph7IAljG7DkivjEsd2yOPLY3ZcU0PNULNVY/Z2qkacJYMjPS/j0eprfTeBMZAfwWcSmtLkjiOrvh8uY7tPM+kCdTNKo1nFqNUIpThoF020iZ5DHpuWVwzD8ewGfCPAckFMdIKZKkW/PLtnZr67j3F youssef.david.joe@gmail.com
-`
+- PORT : 2200
+
+## Amazon Lightsail Set Up
+
+ 1. Go to the [Amazon Lightsail](https://aws.amazon.com/lightsail/) website
+ 2. Click get started for free
+ 3. Create your first instance
+
+![enter image description here](http://mulligandev.com/assets/lsc/lsc_01.JPG)
+
+4. Select OS Only and Ubuntu
+![enter image description here](http://mulligandev.com/assets/lsc/lsc_02.JPG)
+5. Scroll down and name your instance whatever you'd like and click create.
+6. It might take a minute or two for the instance to set up. Once running click on it and click "Account Page" at the bottom so you can download your private SSH key.
+![enter image description here](http://mulligandev.com/assets/lsc/lsc_03.JPG)
+7. Now click download to get your private key. The file type is .pem and will be used to SSH into the server.
+![enter image description here](http://mulligandev.com/assets/lsc/lsc_04.JPG)
+8. The last thing we will need to do is configure the ports Amazon Lightsail will allow. By default the firewall is set to only allow connects from port 22 and port 80. We need to set up port 2200 and 123. 
+9. Click the networking tab
+![enter image description here](http://mulligandev.com/assets/lsc/lsc_05.JPG) 
+10. From this tab click add another under "Firewall" and choose **Custom** for application, **TCP** for protocol, and the port number under **Port Range**. Then click save.
+![enter image description here](http://mulligandev.com/assets/lsc/lsc_06.JPG)
+11. That should be all that needs to be done with the Lightsail website.
 
 # Linux Configuration
  1. On Mac you will want to store all of your SSH Keys in the .ssh folder which is located in a folder called `.ssh` at the root of your user directory. For example `Macintosh HD/Users/[Your username]/.ssh/`
